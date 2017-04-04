@@ -11,16 +11,27 @@ A:  You put things into the staging area before you make a commit. All the files
 3. How can you use the staging area to make sure you have one commit per logical
 change?
 
-A:
+A: While in the staging area you can check the difference between the file you are about to commit and the last commit to confirm the change before you actually commit. You can also check the difference btwn the staging area and working directory to make sure that you have added the correct change to the staging area before committing.
 
 
-What are some situations when branches would be helpful in keeping your history
+4.  What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+A:  Branches would help keep your history organised if you wanted to make different versions of your program or if you wanted to add experimental features etc. That way you won't mess up the original version and can still work on different versions of the program that can be integrated into the original later on if you want.
 
-What is the result of merging two branches together? Why do we represent it in
+
+5.  How do the diagrams help you visualize the branch structure?
+
+A:  The diagrams help you visualize the branch structure by allowing you to see how the branch flows and the best place in the branch to add commits to avoid unreachable commits. It also allows you to see the entire tree structre of your program and how the branches are related to each other.
+
+
+6.  What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+A:  Merging two branches together puts the code of those branches together by merging branch2 INTO branch1. We represent it in the daigram by the branches coming together under the name of branch1 because that is what git does. By using the diagram, it is easier and clearer to see the process that way.
+
+
+7.  What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+A: Automatic merging helps you to merge your code much faster than doing it manually. The cons are that git isn't smart enough to be able to resolve conflicts for you so there will be times when you have to resolve the conflicts yourself in order to be able to merge your files.
