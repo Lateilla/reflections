@@ -5,7 +5,7 @@ A:  You would use a remote repository when other people are also working on a pr
 
 2.  Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+A:  Because that way you are able to choose what version of code you would like to have in your local repsoitory. For example someone added a feature that you don't want to implement until later, automatic pulling won't give you the choice of when  to implement those changes and may disrupt your workflow.
 
 
 3.  Describe the differences between forks, clones, and branches.  When would you use one instead of another?
