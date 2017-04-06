@@ -25,4 +25,4 @@ You can collaborate without Git or GitHub by either working the same room or on 
 
 6.  When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-    Fill in your answer here
+When you are collaborating with others, making changes directly in master might be not be the best thing especially when everyone has not agreed on a change or how it should be implemented. Making changes in a separate branch then using pull requests to integrate your branch into master is better because you are able to get feedback from other people before any changes are made to the main project. This way collaborating is easier and less stressfull.
