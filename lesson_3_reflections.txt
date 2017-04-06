@@ -20,7 +20,7 @@ A:  It allows you to keep the latest version and your version separate but still
 
 5.  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
-    Fill in your answer here
+You can collaborate without Git or GitHub by either working the same room or on the same network as the people you are collaborating with, and sending (large) files back and forth. This would be harder because a lot of tools such a auto merging and auto conflict detection won't be available so it will take up more time. You also won't have access to the complete history of your files. Collaborating like this would be much harder and more time consuming that using Git and GitHub.
 
 
 6.  When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
