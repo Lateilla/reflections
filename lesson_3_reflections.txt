@@ -15,7 +15,7 @@ A:  Because that way you are able to choose what version of code you would like 
 
 4.  What is the benefit of having a copy of the last known state of the remote stored locally?
 
-    Fill in your answer here
+A:  It allows you to keep the latest version and your version separate but still gives you access to the lastest version of code so you can compare your version to what has been updated, check out new features that other people have added etc. without affecting your version until you decide that you want to merge them
 
 
 5.  How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
